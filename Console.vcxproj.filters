@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fileio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="fileio.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fonts\modern-pro-font-win-tweaked\._LICENSE">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-pro-font-win-tweaked\._readme.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1971-ibm-3278\3270Medium.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="437.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="437">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1979-atari-400-800\ATARI400800_original.TTF">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1979-atari-400-800\ATARI400800_squared.TTF">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ApplicationSettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1985-atari-st\AtariST8x16SystemFont.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="frames\BlackRoughFrame.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\C64_Elite_Mono_v1.0-STYLE.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\C64_Pro_Mono_v1.0-STYLE.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\C64_Pro_v1.0-STYLE.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\C64_User_Mono_v1.0-STYLE.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\C64_User_v1.0-STYLE.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_128.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_128_2y.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_2x.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_2y.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_64.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_64_2y.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CRTMainMenuBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-pro-font-win-tweaked\Comments">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="DOS">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-fixedsys-excelsior\FSEX301-L2.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="FontPixels.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="FontScanlines.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Fonts.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-apple2\FreeLicense.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\FreeLicense.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-hermit\Hermit-bold.otf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-hermit\Hermit-light.otf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-hermit\Hermit-medium.otf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-inconsolata\Inconsolata.otf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1975-knight-tv\KnightTVMedium.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1971-ibm-3278\LICENSE.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-hermit\LICENSE">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-pro-font-win-tweaked\LICENSE">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-proggy-tiny\Licence.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-apple2\PRNumber3.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1985-ibm-pc-vga\Perfect">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PreprocessedTerminal.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1977-apple2\PrintChar21.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-pro-font-win-tweaked\ProFontWindows.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ProFontWindows">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-proggy-tiny\ProggyTiny.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1971-ibm-3278\README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-monaco\README">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1979-atari-400-800\ReadMe.rtf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ShaderTerminal.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TerminalContainer.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="frames\utils\TerminalFrame.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-terminus\TerminusTTF-4.38.2.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-terminus\TerminusTTF-Bold-4.38.2.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TimeManager.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="VGA">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="frames\WhiteSimpleFrame.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Win.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\allNoise512.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="frames\images\black-frame-normals.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="frames\images\black-frame-original.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="frames\images\black-frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\128x128\cool-retro-term.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\256x256\cool-retro-term.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\32x32\cool-retro-term.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\64x64\cool-retro-term.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\crt.icns">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crt256.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1985-ibm-pc-vga\dos437.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="for">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\license.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.cpp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-monaco\monaco.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="fonts\modern-pro-font-win-tweaked\readme.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="frames\images\screen-frame-normals.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="frames\images\screen-frame-original.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="frames\images\screen-frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="utils.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\modern-pro-font-win-tweaked\._LICENSE" />
+    <None Include="fonts\modern-pro-font-win-tweaked\._readme.txt" />
+    <None Include="fonts\1971-ibm-3278\3270Medium.ttf" />
+    <None Include="437.ttf" />
+    <None Include="437" />
+    <None Include="fonts\1979-atari-400-800\ATARI400800_original.TTF" />
+    <None Include="fonts\1979-atari-400-800\ATARI400800_squared.TTF" />
+    <None Include="ApplicationSettings.qml" />
+    <None Include="fonts\1985-atari-st\AtariST8x16SystemFont.ttf" />
+    <None Include="frames\BlackRoughFrame.qml" />
+    <None Include="fonts\1982-commodore64\C64_Elite_Mono_v1.0-STYLE.ttf" />
+    <None Include="fonts\1982-commodore64\C64_Pro_Mono_v1.0-STYLE.ttf" />
+    <None Include="fonts\1982-commodore64\C64_Pro_v1.0-STYLE.ttf" />
+    <None Include="fonts\1982-commodore64\C64_User_Mono_v1.0-STYLE.ttf" />
+    <None Include="fonts\1982-commodore64\C64_User_v1.0-STYLE.ttf" />
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET.ttf" />
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_128.ttf" />
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_128_2y.ttf" />
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_2x.ttf" />
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_2y.ttf" />
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_64.ttf" />
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_64_2y.ttf" />
+    <None Include="CRTMainMenuBar.qml" />
+    <None Include="fonts\modern-pro-font-win-tweaked\Comments" />
+    <None Include="DOS" />
+    <None Include="fonts\modern-fixedsys-excelsior\FSEX301-L2.ttf" />
+    <None Include="FontPixels.qml" />
+    <None Include="FontScanlines.qml" />
+    <None Include="Fonts.qml" />
+    <None Include="fonts\1977-apple2\FreeLicense.txt" />
+    <None Include="fonts\1977-commodore-pet\FreeLicense.txt" />
+    <None Include="fonts\modern-hermit\Hermit-bold.otf" />
+    <None Include="fonts\modern-hermit\Hermit-light.otf" />
+    <None Include="fonts\modern-hermit\Hermit-medium.otf" />
+    <None Include="fonts\modern-inconsolata\Inconsolata.otf" />
+    <None Include="fonts\1975-knight-tv\KnightTVMedium.ttf" />
+    <None Include="fonts\1971-ibm-3278\LICENSE.txt" />
+    <None Include="fonts\modern-hermit\LICENSE" />
+    <None Include="fonts\modern-pro-font-win-tweaked\LICENSE" />
+    <None Include="fonts\modern-proggy-tiny\Licence.txt" />
+    <None Include="fonts\1977-apple2\PRNumber3.ttf" />
+    <None Include="fonts\1985-ibm-pc-vga\Perfect" />
+    <None Include="PreprocessedTerminal.qml" />
+    <None Include="fonts\1977-apple2\PrintChar21.ttf" />
+    <None Include="fonts\modern-pro-font-win-tweaked\ProFontWindows.ttf" />
+    <None Include="ProFontWindows" />
+    <None Include="fonts\modern-proggy-tiny\ProggyTiny.ttf" />
+    <None Include="fonts\1971-ibm-3278\README.md" />
+    <None Include="fonts\modern-monaco\README" />
+    <None Include="fonts\1979-atari-400-800\ReadMe.rtf" />
+    <None Include="ShaderTerminal.qml" />
+    <None Include="TerminalContainer.qml" />
+    <None Include="frames\utils\TerminalFrame.qml" />
+    <None Include="fonts\modern-terminus\TerminusTTF-4.38.2.ttf" />
+    <None Include="fonts\modern-terminus\TerminusTTF-Bold-4.38.2.ttf" />
+    <None Include="TimeManager.qml" />
+    <None Include="VGA" />
+    <None Include="frames\WhiteSimpleFrame.qml" />
+    <None Include="Win.ttf" />
+    <None Include="images\allNoise512.png" />
+    <None Include="frames\images\black-frame-normals.png" />
+    <None Include="frames\images\black-frame-original.png" />
+    <None Include="frames\images\black-frame.png" />
+    <None Include="images\crt256.png" />
+    <None Include="fonts\1985-ibm-pc-vga\dos437.txt" />
+    <None Include="for" />
+    <None Include="fonts\1982-commodore64\license.txt" />
+    <None Include="main.qml" />
+    <None Include="fonts\modern-monaco\monaco.ttf" />
+    <None Include="fonts\modern-pro-font-win-tweaked\readme.txt" />
+    <None Include="frames\images\screen-frame-normals.png" />
+    <None Include="frames\images\screen-frame-original.png" />
+    <None Include="frames\images\screen-frame.png" />
+    <None Include="utils.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fonts\modern-pro-font-win-tweaked\._LICENSE">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-pro-font-win-tweaked\._readme.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1971-ibm-3278\3270Medium.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="437.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="437">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1979-atari-400-800\ATARI400800_original.TTF">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1979-atari-400-800\ATARI400800_squared.TTF">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="ApplicationSettings.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1985-atari-st\AtariST8x16SystemFont.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="frames\BlackRoughFrame.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\C64_Elite_Mono_v1.0-STYLE.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\C64_Pro_Mono_v1.0-STYLE.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\C64_Pro_v1.0-STYLE.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\C64_User_Mono_v1.0-STYLE.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\C64_User_v1.0-STYLE.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_128.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_128_2y.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_2x.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_2y.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_64.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\COMMODORE_PET_64_2y.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="CRTMainMenuBar.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-pro-font-win-tweaked\Comments">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="DOS">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-fixedsys-excelsior\FSEX301-L2.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="FontPixels.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="FontScanlines.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="Fonts.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-apple2\FreeLicense.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-commodore-pet\FreeLicense.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-hermit\Hermit-bold.otf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-hermit\Hermit-light.otf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-hermit\Hermit-medium.otf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-inconsolata\Inconsolata.otf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1975-knight-tv\KnightTVMedium.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1971-ibm-3278\LICENSE.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-hermit\LICENSE">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-pro-font-win-tweaked\LICENSE">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-proggy-tiny\Licence.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-apple2\PRNumber3.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1985-ibm-pc-vga\Perfect">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="PreprocessedTerminal.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1977-apple2\PrintChar21.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-pro-font-win-tweaked\ProFontWindows.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="ProFontWindows">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-proggy-tiny\ProggyTiny.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1971-ibm-3278\README.md">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-monaco\README">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1979-atari-400-800\ReadMe.rtf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="ShaderTerminal.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="TerminalContainer.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="frames\utils\TerminalFrame.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-terminus\TerminusTTF-4.38.2.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-terminus\TerminusTTF-Bold-4.38.2.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="TimeManager.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="VGA">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="frames\WhiteSimpleFrame.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="Win.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="images\allNoise512.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="frames\images\black-frame-normals.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="frames\images\black-frame-original.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="frames\images\black-frame.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="images\crt256.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1985-ibm-pc-vga\dos437.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="for">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\1982-commodore64\license.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-monaco\monaco.ttf">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="fonts\modern-pro-font-win-tweaked\readme.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="frames\images\screen-frame-normals.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="frames\images\screen-frame-original.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="frames\images\screen-frame.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="utils.js">
+      <Filter>Distribution Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
